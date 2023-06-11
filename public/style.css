@@ -1,0 +1,110 @@
+html,
+body {
+    font-family: "Trirong", serif;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+img[alt=roots]{
+    width: 200px;
+    margin-top: -10px;
+}
+img[alt=snake]{
+    float: right;
+    width: 150px;
+    margin-top: -10px;
+    margin-left: 90px;
+    margin-right: 0px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0px;
+    color:  rgb(225, 45, 0);
+    transition: 0.5s;
+}
+
+h2:hover {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+p:hover {
+    color:  rgb(225, 45, 0);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 110px;
+    margin-left: 590px;
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid  rgb(225, 45, 0);
+    transition: 0.5s;
+}
+footer{
+    margin-top: 60px;
+}
+a:hover {
+    color:  rgb(225, 45, 0);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+p#question {
+    font-size: 18px;
+    margin-top: 80px;
+    color:  rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+p#question:hover {
+    color: rgb(225, 45, 0);
+}
+
+button {
+    margin: 10px;
+    width: 130px;
+    height: 35px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-family: "Trirong", serif;
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(225, 45, 0);
+    color: rgb(255, 255, 255);
+}
+
+input {
+    width: 300px;
+    height: 20px;
+    padding: 8px;
+    background-color: rgb(225, 45, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+input:focus {
+    background-color: rgb(255, 255, 255);
+}
+
+#form {
+    display: none;
+}
+#msg{
+    margin: 05px;
+    color: red;
+}

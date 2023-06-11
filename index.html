@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Treasure Hunt</title>
+    <title>Hunter Treasure</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <script src="script.js"></script>
 </head>
+
 <body>
-    
+    <div>
+        <img src="public/Images/roots.png" alt="roots">
+        <img src="public/Images/snake.png" alt="snake">
+        <h2 id="welcome" class="center">WELCOME TO HUNTER TREASURE!</h2>
+        <p id="description" class="center">You have to complete 3 rounds of riddles within 60 seconds to hunt the
+            treasure in the jungle.
+        </p>
+        <a id="start" class="center" href="#" onclick=" return startTimer()">GET STARTED</a>
+        <p id="round" class="center"></p>
+        <p id="time" class="center"></p>
+        <p class="center" id="question"></p>
+        <div id="form">
+            <form class="center" onsubmit="return formValidation()">
+                <input type="text" id="ans" onclick="document.getElementsById('msgs').style.display='none';">
+                <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+
+    </div>
+    <p class="center" id="msgs"></p>
+    <footer class="center">Designed by Rania</footer>
 </body>
+
 </html>
