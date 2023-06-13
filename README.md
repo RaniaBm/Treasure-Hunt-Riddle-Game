@@ -21,3 +21,7 @@ Developed in HTML, CSS and JavaScript. This game is has 3 riddles where you have
 
 ## Win
 ![image](https://github.com/RaniaBm/Treasure-Hunt-Riddle-Game/assets/128255568/d578c405-1092-43ad-a879-5ab37cd8e3f5)
+
+
+## Feedback
+you can submit your feed back at raniabm21@gmail.com
